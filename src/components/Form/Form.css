@@ -5,13 +5,13 @@
   justify-content: end;
   align-items: center;
 }
-.form {
+.form-sec {
   padding: var(--gap-m) var(--gap-m) var(--gap-l);
   width: min(85vw, 30em);
   border-radius: 1em;
   /* border: .5em solid var(--primary-clr); */
 }
-.form > form {
+.form  {
   display: flex;
   flex-direction: column;
   gap: var(--gap-m);

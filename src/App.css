@@ -1,0 +1,30 @@
+:root {
+  --gap-s: calc(var(--gap-m) * 0.5);
+  --gap-m: 2em;
+  --gap-l: calc(var(--gap-m) * 2);
+  --gap-xl: calc(var(--gap-m) * 3);
+
+  --primary-clr: hsl(212, 100%, 17%);
+  --secondary-clr: hsl(212, 100%, 27%);
+  --text-primary-clr: white;
+  --text-secondary-clr: hsl(212, 100%, 90%);
+  --text-tertiary-clr: hsl(212, 100%, 27%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  height: max(100vh, max-content);
+  display: grid;
+  grid-template-rows: max-content 1fr;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  /* padding: var(--gap-s); */
+  font-family: 'Roboto', sans-serif;
+}

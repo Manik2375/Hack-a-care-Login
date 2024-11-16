@@ -60,7 +60,7 @@ export default function Form() {
         </form>
       </section>
       <section className="content">
-        <h1>Deevyashakti Enterprisis</h1>
+        <h1>Dheeshakti</h1>
         <p>
           Hospitals are essential institutions providing medical care, emergency
           services, and specialized treatments to improve patient health and

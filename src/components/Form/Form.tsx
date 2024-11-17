@@ -17,7 +17,7 @@ export default function Form() {
         <form
           className="form"
           onSubmit={(event) => {
-            if (username == "admin" && password == "admin") {
+            if (username == "admin" && password == "juit") {
               event.preventDefault();
               window.location.href =
                 "https://manik2375.github.io/Hospital_Management_App/";

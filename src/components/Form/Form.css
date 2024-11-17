@@ -11,7 +11,7 @@
   border-radius: 1em;
   /* border: .5em solid var(--primary-clr); */
 }
-.form  {
+.form {
   display: flex;
   flex-direction: column;
   gap: var(--gap-m);
@@ -35,7 +35,7 @@ p {
 .icons-container {
   display: flex;
   justify-content: space-evenly;
-  margin-top: var(--gap-m)
+  margin-top: var(--gap-m);
 }
 .icons-container > svg {
   transform: scale(1.5);
@@ -43,4 +43,24 @@ p {
 }
 .icons-container > svg:hover {
   transform: scale(1.7);
+}
+
+@media screen and (min-width: 55em) {
+  #root {
+    align-items: center;
+  }
+  .form-wrapper {
+    width: min(80%, 70em);
+    height: max-content;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    border: .5em solid var(--primary-clr)
+  }
+  .form-sec {
+    width: initial;
+  }
+  .content {
+    width: initial;
+  }
 }
